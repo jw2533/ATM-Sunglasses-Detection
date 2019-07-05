@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerEnvironment>PATH=C:\Users\Administrator.PPT03-20140715M\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\bin;C:\Users\Administrator.PPT03-20140715M\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\bin;E:\opencv3.4.0\build\x64\vc14\bin;C:\Users\Administrator.PPT03-20140715M\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib;E:\Anaconda3; $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>E:\VS Projects\FaceDetection _sg_interact_GUI\x64\Release\SGGUI.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+</Project>

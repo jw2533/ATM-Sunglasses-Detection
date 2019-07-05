@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceDetection", "FaceDetection\FaceDetection.vcxproj", "{CF859F25-FAD7-469A-9618-A1816A07E91C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceDetectionTest", "FaceDetectionTest\FaceDetectionTest.vcxproj", "{68A1EBD7-5D0D-4C39-96DB-319337801C36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SGGUI", "SGGUI\SGGUI.vcxproj", "{1CB3F26A-8437-4A6A-A30A-5807D2DDB18F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SGsetup", "SGsetup\SGsetup.vdproj", "{52A21DAE-D7E8-4F9A-B78B-73503AB5D50F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF859F25-FAD7-469A-9618-A1816A07E91C}.Debug|x64.ActiveCfg = Release|x64
+		{CF859F25-FAD7-469A-9618-A1816A07E91C}.Debug|x64.Build.0 = Release|x64
+		{CF859F25-FAD7-469A-9618-A1816A07E91C}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF859F25-FAD7-469A-9618-A1816A07E91C}.Debug|x86.Build.0 = Debug|Win32
+		{CF859F25-FAD7-469A-9618-A1816A07E91C}.Release|x64.ActiveCfg = Release|x64
+		{CF859F25-FAD7-469A-9618-A1816A07E91C}.Release|x64.Build.0 = Release|x64
+		{CF859F25-FAD7-469A-9618-A1816A07E91C}.Release|x86.ActiveCfg = Release|Win32
+		{CF859F25-FAD7-469A-9618-A1816A07E91C}.Release|x86.Build.0 = Release|Win32
+		{68A1EBD7-5D0D-4C39-96DB-319337801C36}.Debug|x64.ActiveCfg = Debug|x64
+		{68A1EBD7-5D0D-4C39-96DB-319337801C36}.Debug|x64.Build.0 = Debug|x64
+		{68A1EBD7-5D0D-4C39-96DB-319337801C36}.Debug|x86.ActiveCfg = Debug|Win32
+		{68A1EBD7-5D0D-4C39-96DB-319337801C36}.Debug|x86.Build.0 = Debug|Win32
+		{68A1EBD7-5D0D-4C39-96DB-319337801C36}.Release|x64.ActiveCfg = Release|x64
+		{68A1EBD7-5D0D-4C39-96DB-319337801C36}.Release|x64.Build.0 = Release|x64
+		{68A1EBD7-5D0D-4C39-96DB-319337801C36}.Release|x86.ActiveCfg = Release|Win32
+		{68A1EBD7-5D0D-4C39-96DB-319337801C36}.Release|x86.Build.0 = Release|Win32
+		{1CB3F26A-8437-4A6A-A30A-5807D2DDB18F}.Debug|x64.ActiveCfg = Debug|x64
+		{1CB3F26A-8437-4A6A-A30A-5807D2DDB18F}.Debug|x64.Build.0 = Debug|x64
+		{1CB3F26A-8437-4A6A-A30A-5807D2DDB18F}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CB3F26A-8437-4A6A-A30A-5807D2DDB18F}.Debug|x86.Build.0 = Debug|Win32
+		{1CB3F26A-8437-4A6A-A30A-5807D2DDB18F}.Release|x64.ActiveCfg = Release|x64
+		{1CB3F26A-8437-4A6A-A30A-5807D2DDB18F}.Release|x64.Build.0 = Release|x64
+		{1CB3F26A-8437-4A6A-A30A-5807D2DDB18F}.Release|x86.ActiveCfg = Release|Win32
+		{1CB3F26A-8437-4A6A-A30A-5807D2DDB18F}.Release|x86.Build.0 = Release|Win32
+		{52A21DAE-D7E8-4F9A-B78B-73503AB5D50F}.Debug|x64.ActiveCfg = Debug
+		{52A21DAE-D7E8-4F9A-B78B-73503AB5D50F}.Debug|x86.ActiveCfg = Debug
+		{52A21DAE-D7E8-4F9A-B78B-73503AB5D50F}.Release|x64.ActiveCfg = Release
+		{52A21DAE-D7E8-4F9A-B78B-73503AB5D50F}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

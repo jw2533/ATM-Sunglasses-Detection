@@ -1,0 +1,17 @@
+﻿  lab_boosted_classifier.cpp
+  mlp.cpp
+  surf_mlp.cpp
+  face_detection.cpp
+  lab_feature_map.cpp
+  surf_feature_map.cpp
+  fust.cpp
+  lab_boost_model_reader.cpp
+  surf_mlp_model_reader.cpp
+  image_pyramid.cpp
+  nms.cpp
+    正在创建库 E:\VS Projects\FaceDetection _sg_interact_GUI\x64\Release\FaceDetection.lib 和对象 E:\VS Projects\FaceDetection _sg_interact_GUI\x64\Release\FaceDetection.exp
+  正在生成代码
+  All 1814 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  FaceDetection.vcxproj -> E:\VS Projects\FaceDetection _sg_interact_GUI\x64\Release\FaceDetection.dll
+  FaceDetection.vcxproj -> E:\VS Projects\FaceDetection _sg_interact_GUI\x64\Release\FaceDetection.pdb (Full PDB)

@@ -1,0 +1,347 @@
+﻿  main.cpp
+C:\Users\Administrator.PPT03-20140715M\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\google/protobuf/message_lite.h(247): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+E:\caffe-windows\build\install\include\caffe/util/io.hpp(53): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+main.cpp(142): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+main.cpp(321): warning C4244: “初始化”: 从“int64”转换到“long”，可能丢失数据
+main.cpp(323): warning C4244: “初始化”: 从“int64”转换到“long”，可能丢失数据
+main.cpp(357): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+E:\caffe-windows\build\install\include\caffe/net.hpp(199): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  E:\caffe-windows\build\install\include\caffe/net.hpp(199): note: 编译类 模板 成员函数“int caffe::Net<float>::num_outputs(void) const”时
+  main.cpp(99): note: 参见对正在编译的函数 模板 实例化“int caffe::Net<float>::num_outputs(void) const”的引用
+  main.cpp(95): note: 参见对正在编译的类 模板 实例化“caffe::Net<float>”的引用
+E:\caffe-windows\build\install\include\caffe/net.hpp(198): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  E:\caffe-windows\build\install\include\caffe/net.hpp(198): note: 编译类 模板 成员函数“int caffe::Net<float>::num_inputs(void) const”时
+  main.cpp(98): note: 参见对正在编译的函数 模板 实例化“int caffe::Net<float>::num_inputs(void) const”的引用
+E:\caffe-windows\build\install\include\caffe/blob.hpp(74): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  E:\caffe-windows\build\install\include\caffe/blob.hpp(74): note: 编译类 模板 成员函数“int caffe::Blob<Dtype>::num_axes(void) const”时
+          with
+          [
+              Dtype=float
+          ]
+  E:\caffe-windows\build\install\include\caffe/blob.hpp(140): note: 参见对正在编译的函数 模板 实例化“int caffe::Blob<Dtype>::num_axes(void) const”的引用
+          with
+          [
+              Dtype=float
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(46): note: 参见对正在编译的类 模板 实例化“caffe::Blob<Dtype>”的引用
+          with
+          [
+              Dtype=float
+          ]
+  main.cpp(54): note: 参见对正在编译的类 模板 实例化“caffe::InnerProductLayer<float>”的引用
+main.cpp(51): warning C4661: “void caffe::InputLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/input_layer.hpp(23): note: 参见“caffe::InputLayer<float>::LayerSetUp”的声明
+main.cpp(51): warning C4661: “void caffe::InputLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/input_layer.hpp(23): note: 参见“caffe::InputLayer<double>::LayerSetUp”的声明
+main.cpp(52): warning C4661: “void caffe::FlattenLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/flatten_layer.hpp(27): note: 参见“caffe::FlattenLayer<float>::Reshape”的声明
+main.cpp(52): warning C4661: “void caffe::FlattenLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/flatten_layer.hpp(43): note: 参见“caffe::FlattenLayer<float>::Forward_cpu”的声明
+main.cpp(52): warning C4661: “void caffe::FlattenLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/flatten_layer.hpp(55): note: 参见“caffe::FlattenLayer<float>::Backward_cpu”的声明
+main.cpp(52): warning C4661: “void caffe::FlattenLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/flatten_layer.hpp(27): note: 参见“caffe::FlattenLayer<double>::Reshape”的声明
+main.cpp(52): warning C4661: “void caffe::FlattenLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/flatten_layer.hpp(43): note: 参见“caffe::FlattenLayer<double>::Forward_cpu”的声明
+main.cpp(52): warning C4661: “void caffe::FlattenLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/flatten_layer.hpp(55): note: 参见“caffe::FlattenLayer<double>::Backward_cpu”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(21): note: 参见“caffe::ConcatLayer<float>::LayerSetUp”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(23): note: 参见“caffe::ConcatLayer<float>::Reshape”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(47): note: 参见“caffe::ConcatLayer<float>::Forward_cpu”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(49): note: 参见“caffe::ConcatLayer<float>::Forward_gpu”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(74): note: 参见“caffe::ConcatLayer<float>::Backward_cpu”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(76): note: 参见“caffe::ConcatLayer<float>::Backward_gpu”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(21): note: 参见“caffe::ConcatLayer<double>::LayerSetUp”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(23): note: 参见“caffe::ConcatLayer<double>::Reshape”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(47): note: 参见“caffe::ConcatLayer<double>::Forward_cpu”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(49): note: 参见“caffe::ConcatLayer<double>::Forward_gpu”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(74): note: 参见“caffe::ConcatLayer<double>::Backward_cpu”的声明
+main.cpp(53): warning C4661: “void caffe::ConcatLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/concat_layer.hpp(76): note: 参见“caffe::ConcatLayer<double>::Backward_gpu”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(23): note: 参见“caffe::InnerProductLayer<float>::LayerSetUp”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(25): note: 参见“caffe::InnerProductLayer<float>::Reshape”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(33): note: 参见“caffe::InnerProductLayer<float>::Forward_cpu”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(35): note: 参见“caffe::InnerProductLayer<float>::Forward_gpu”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(37): note: 参见“caffe::InnerProductLayer<float>::Backward_cpu”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(39): note: 参见“caffe::InnerProductLayer<float>::Backward_gpu”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(23): note: 参见“caffe::InnerProductLayer<double>::LayerSetUp”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(25): note: 参见“caffe::InnerProductLayer<double>::Reshape”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(33): note: 参见“caffe::InnerProductLayer<double>::Forward_cpu”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(35): note: 参见“caffe::InnerProductLayer<double>::Forward_gpu”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(37): note: 参见“caffe::InnerProductLayer<double>::Backward_cpu”的声明
+main.cpp(54): warning C4661: “void caffe::InnerProductLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/inner_product_layer.hpp(39): note: 参见“caffe::InnerProductLayer<double>::Backward_gpu”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(36): note: 参见“caffe::DropoutLayer<float>::LayerSetUp”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(38): note: 参见“caffe::DropoutLayer<float>::Reshape”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(60): note: 参见“caffe::DropoutLayer<float>::Forward_cpu”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(62): note: 参见“caffe::DropoutLayer<float>::Forward_gpu”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(64): note: 参见“caffe::DropoutLayer<float>::Backward_cpu”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(66): note: 参见“caffe::DropoutLayer<float>::Backward_gpu”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(36): note: 参见“caffe::DropoutLayer<double>::LayerSetUp”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(38): note: 参见“caffe::DropoutLayer<double>::Reshape”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(60): note: 参见“caffe::DropoutLayer<double>::Forward_cpu”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(62): note: 参见“caffe::DropoutLayer<double>::Forward_gpu”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(64): note: 参见“caffe::DropoutLayer<double>::Backward_cpu”的声明
+main.cpp(55): warning C4661: “void caffe::DropoutLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  E:\caffe-windows\build\install\include\caffe/layers/dropout_layer.hpp(66): note: 参见“caffe::DropoutLayer<double>::Backward_gpu”的声明
+  正在生成代码
+  14 of 1195 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  FaceDetectionTest.vcxproj -> E:\VS Projects\FaceDetection _sg_interact_GUI\x64\Release\FaceDetectionTest.exe
+  FaceDetectionTest.vcxproj -> E:\VS Projects\FaceDetection _sg_interact_GUI\x64\Release\FaceDetectionTest.pdb (Full PDB)
