@@ -1,5 +1,7 @@
 # ATM-Sunglasses-Detection
 
+The path of main file is ATM-Sunglasses-Detection/FaceDetectionTest/main.cpp
+
 This project is designed to used in ATM for security reason and could recognize abnormal human faces
 
 In recent years, the level of economic development in China has grown by leaps and bounds. Under the environment of continuous development of modern science and technology, many banks and financial institutions in China have widely promoted the use of ATMs. However, many criminals use masked faces to evade monitoring and investigation. In order to reduce the number and harmfulness of such criminal activities and protect the property safety of the general public, it is urgent to develop a sunglasses detection system that is used in ATM machines with high accuracy and good real-time performance.
